@@ -32,7 +32,7 @@ if __name__ == '__main__':
     except IndexError:
         fn = 0
 
-    cam = cv2.VideoCapture('gku.mp4')
+    cam = cv2.VideoCapture(fn)
     ret, prev = cam.read()
     prev = imutils.resize(prev, width=WIDTH)
     prevgray = cv2.cvtColor(prev, cv2.COLOR_BGR2GRAY)
