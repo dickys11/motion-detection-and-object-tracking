@@ -1,6 +1,6 @@
 # Motion Detection and Object Tracking
 
-Simple Motion Detection using Gunnar Farneback’s Optical Flow algorithm and Object Tracking using Contour Tracking.
+Simple Motion Detection using Gunnar Farneback’s Optical Flow algorithm and Object Tracking using Contour Tracing.
 
 # How to use
 1. using video path : python opticalflow.py [video source]
